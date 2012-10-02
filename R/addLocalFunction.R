@@ -11,9 +11,9 @@
 #' @examples
 #' \dontrun{
 #' myfun <- function(x){x + 2}
-#' localfunction(myfun)
+#' addLocalFunction(myfun)
 #' }
-localfunction <- function(func){
+addLocalFunction <- function(func){
      functionsPath <- file.path(find.package("local"), "localfunctions")
      functionName <- as.character(substitute(func))
      saveRDS(func, file = file.path(functionsPath, paste0(functionName, ".rds")))
