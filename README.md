@@ -23,3 +23,8 @@ install_github("local", "Dasonk")
 
 Currently when you store functions or data into the database then the next time the local package is loaded they will get written to the _global environment_.  This is less than ideal and eventually the goal is to write them to their own namespace but... I need to learn a little more to do that.  So currently this package is dangerous to use because it can and will write over any functions or data in your current global environment if it shares a name with anything in the local database.  The next step which will come very soon is to create a conflict management system so that other objects don't get written over and you have options on what to do in case of a name collision.  Giving local its own namespace would, of course, eliminate the need to this.
 
+## Goals
+
+  1) Be able to document functions and/or datasets on the fly
+  2) Specify a package name to save functions and/or data into
+  3) Mainly the goal is to be able to document functions on the fly but I figured it would be necessary to have the functions in some sort of package to do that and thus `local` was born.  This would be nice for people who don't have the know-how or don't want to take the time to create and build and install a package just to have help pages for functions they created.
