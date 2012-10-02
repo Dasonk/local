@@ -1,6 +1,6 @@
 Package: local
 Type: Package
-Title: Provides a local package for you to store functions into
+Title: Provides a local package for you to store functions and data into.
 Version: 1.0
 Date: 2012-10-01
 Author@R: c(person("Dason", "Kurkiewicz",
@@ -11,7 +11,16 @@ Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
 Depends:
     R (>= 2.15.0)
 Description: This package is a designed to provide an easy way to
-    store all of your functions in one place.
+    store all of your on the fly functions in one place.  Once saved
+    when the package loads then all of the functions you've saved
+    using the package will be reloaded.  This is a convenient alternative
+    to writing your functions into a script so that they're all in one
+    place.  Eventually the goal is to make it easy to turn the functions
+    stored into 'local' into their own package.  Keep your eyes open
+    for another package soon to come that will allow one to write documentation
+    for functions made on the fly. Make sure that this package gets
+    installed in a location that you have read/write access to or
+    it will not work as intended.
 License: MIT
 URL: https://github.com/Dasonk/local
 Collate:
