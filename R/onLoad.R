@@ -15,7 +15,7 @@
     }
     
     items <- grep("*.rds", dir(databasePath, all.files = TRUE), value = TRUE)
-    items <- items[items != ".localplaceholder.rds"]
+    items <- items[items != "localplaceholder.rds"]
     lapply(items, loadItem)
     return()
 }
