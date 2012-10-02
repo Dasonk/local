@@ -14,7 +14,7 @@
         eval(parse(text = cmd))
     }
     
-    items <- grep("*.rds", dir(databasePath, all = TRUE), value = TRUE)
+    items <- grep("*.rds", dir(databasePath, all.files = TRUE), value = TRUE)
     items <- items[items != ".localplaceholder.rds"]
     lapply(items, loadItem)
     return()
