@@ -12,6 +12,12 @@
 #' @param name The name of the item you want to remove 
 #'  as a character string.
 #' @export
+#' @examples
+#' \dontrun{
+#' myfun <- function(x){x+2}
+#' addLocal(myfun)
+#' removeLocal("myfun")
+#' }
 removeLocal <- function(name){
     itemPath <- file.path(find.package("local"), "localdatabase")
     fileName <- paste0(name, ".rds")

@@ -19,4 +19,11 @@
   delete it from the database.  It returns TRUE if
   successful.
 }
+\examples{
+\dontrun{
+myfun <- function(x){x+2}
+addLocal(myfun)
+removeLocal("myfun")
+}
+}
 
