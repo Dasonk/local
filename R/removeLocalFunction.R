@@ -13,7 +13,7 @@
 #'  as a character string.
 #' @export
 removeLocalFunction <- function(name){
-    functionsPath <- file.path(find.package("local"), "localfunctions")
+    functionsPath <- file.path(find.package("local"), "localdatabase")
     fileName <- paste0(name, ".rds")
     
     # Check if function exists
