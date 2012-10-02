@@ -1,0 +1,16 @@
+Package: local
+Type: Package
+Title: Provides a local package for you to store functions into
+Version: 1.0
+Date: 2012-10-01
+Author@R: c(person("Dason", "Kurkiewicz",
+    role = c("aut", "ctb", "cre"),
+    email = "dasonk@iastate.edu"))
+Author: Dason Kurkiewicz
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Depends:
+    R (>= 2.15.0)
+Description: This package is a designed to provide an easy way to
+    store all of your functions in one place.
+License: MIT
+URL: https://github.com/Dasonk/local
