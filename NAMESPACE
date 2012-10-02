@@ -1,2 +1,2 @@
-export(addLocalFunction)
-export(removeLocalFunction)
+export(addLocal)
+export(removeLocal)
