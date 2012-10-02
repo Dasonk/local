@@ -1,7 +1,7 @@
 Package: local
 Type: Package
 Title: Provides a local package for you to store functions and data into.
-Version: 1.0
+Version: 0.5
 Date: 2012-10-01
 Author@R: c(person("Dason", "Kurkiewicz",
     role = c("aut", "ctb", "cre"),
