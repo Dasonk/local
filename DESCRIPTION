@@ -15,6 +15,6 @@ Description: This package is a designed to provide an easy way to
 License: MIT
 URL: https://github.com/Dasonk/local
 Collate:
-    'loadfunction.R'
+    'loadfunctions.R'
     'localfunction.R'
-    'onload.R'
+    'onLoad.R'
