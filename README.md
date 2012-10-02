@@ -28,3 +28,4 @@ Currently when you store functions or data into the database then the next time 
   1. Be able to document functions and/or datasets on the fly
   2. Specify a package name to save functions and/or data into
   3. Mainly the goal is to be able to document functions on the fly but I figured it would be necessary to have the functions in some sort of package to do that and thus `local` was born.  This would be nice for people who don't have the know-how or don't want to take the time to create and build and install a package just to have help pages for functions they created.
+  4. The documentation would be nice to have displayed like a normal R help file but for the short term I'll settle for a function that can display some sort of help for functions saved using `local`.  The syntax for this is still way up in the air.
