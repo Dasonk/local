@@ -10,7 +10,7 @@
 #' localfunction(myfun)
 #' }
 localfunction <- function(func){
-     functionsPath <- file.path(find.package("local"), "extdata")
+     functionsPath <- file.path(find.package("local"), "localfunctions")
      functionName <- as.character(substitute(func))
      saveRDS(func, file = file.path(functionsPath, paste0(functionName, ".rds")))
      #functionName
