@@ -26,3 +26,4 @@ URL: https://github.com/Dasonk/local
 Collate:
     'onLoad.R'
     'addLocalFunction.R'
+    'removeLocalFunction.R'

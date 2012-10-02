@@ -1,1 +1,2 @@
 export(addLocalFunction)
+export(removeLocalFunction)
