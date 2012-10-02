@@ -27,3 +27,5 @@ Collate:
     'onLoad.R'
     'addLocal.R'
     'removeLocal.R'
+    'loadAll.R'
+    'reloadLocal.R'
