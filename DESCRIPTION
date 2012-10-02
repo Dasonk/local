@@ -14,3 +14,7 @@ Description: This package is a designed to provide an easy way to
     store all of your functions in one place.
 License: MIT
 URL: https://github.com/Dasonk/local
+Collate:
+    'loadfunction.R'
+    'localfunction.R'
+    'onload.R'

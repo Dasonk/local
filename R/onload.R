@@ -5,5 +5,4 @@
     
     functions <- grep("*.rds", dir(functionsPath), value = TRUE)
     lapply(functions, loadfunction)
-    
 }
