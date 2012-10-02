@@ -23,7 +23,7 @@ removeLocal <- function(name){
     fileName <- paste0(name, ".rds")
     
     # Check if function exists
-    if(!(fileName %in% dir(itemPath, all = TRUE))){
+    if(!(fileName %in% dir(itemPath, all.files = TRUE))){
         warning("Function not found in local database.  Nothing removed.")
         return(FALSE)
     }
